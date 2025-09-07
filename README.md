@@ -10,7 +10,7 @@ This dataset was extracted from the Bloomberg terminal during my internship at G
 
 ## Exploratory Data analysis (EDA) '1. Data Cleaning':
 in the notebook "1. Data cleaning and preparation" i have cleaned the data and done EDA on log returns to understand volatility. Specifically, the standard deviation of the log return of an asset shows the volatility from a time series. 
-![Log returns of a basket of currency pairs](/workspaces/Currency-speculation/output.png)
+![Log returns of a basket of currency pairs](visualizations/log returns.png)
 
 ### EDA conclusions and analyst/quant recommendations
 1. During periods of financial crises (GFC), all currency pairs show huge spikes and sharp FX adjustments, particularly USDCHF and USDGBP show particularly large swings, whilst XAUUSD also spikes, which means speculators rush to safe havens like gold to mitigate risk during high volatility
@@ -30,10 +30,10 @@ Using the Bloomberg loaded data, i leveraged numpy and pandas in order to calcul
 5. Test our signal compared to buy & hold
 
 ### Results
-![USDCHF carry signal results](/workspaces/Currency-speculation/USDCHF trading signal.png)
-![USDINR trading signal](/workspaces/Currency-speculation/USDINR trading signal.png)
-![USDEUR trading signal](/workspaces/Currency-speculation/USDEUR trading signal.png)
-![USDJPY trading signal](/workspaces/Currency-speculation/USDJPY trading signal.png)
+![USDCHF carry signal results](visualizations/ USDCHF trading signal.png)
+![USDINR trading signal](visualizations/USDINR trading signaloutput.png)
+![USDEUR trading signal](visualizations/USDEUR trading signal.png)
+![USDJPY trading signal](visualizations/USDJPY trading signaloutput.png)
 
 # Model Evaluations
 ## Feature selection
