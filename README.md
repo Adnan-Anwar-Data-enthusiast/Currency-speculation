@@ -6,7 +6,7 @@ Carry trade is a common trading strategy in forex markets where the speculator b
 The objective of this project was to find the biggest factors affecting the spot rate of a basket of currencies, and build carry trade models using dynamic trade signals, and compare them to thresholds like buy & hold to see whether our trading signal gives us a return
 
 ## Data loading 
-This dataset was extracted from the Bloomberg terminal during my internship at GIAGCC. In carry trade strategy, it is usual to borrow in a low voltaility market such as the japanese yen to mitigate risk and volatility. Along-side the spot rate of USDCHF, USDEUR, USDINR, USDJPy i have selected the features of current account balances of each country, inflation, and interest rates. 
+This dataset was extracted from the Bloomberg terminal during my internship at GIAGCC. In carry trade strategy, it is usual to borrow in a low voltaility market such as the japanese yen to mitigate risk and volatility. Along-side the spot rate of USDCHF, USDEUR, USDINR, USDJPY i have selected the features of current account balances of each country, inflation, and interest rates. 
 
 ## Exploratory Data analysis (EDA) '1. Data Cleaning':
 in the notebook "1. Data cleaning and preparation" i have cleaned the data and done EDA on log returns to understand volatility. Specifically, the standard deviation of the log return of an asset shows the volatility from a time series. 
