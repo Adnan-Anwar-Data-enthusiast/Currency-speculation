@@ -29,7 +29,7 @@ Using the Bloomberg loaded data, i leveraged numpy and pandas in order to calcul
 5. Test our signal compared to buy & hold
 
 ### Results
-![USDCHF carry signal results](visualizations/USDCHF_trading_signal.png)
+![USDCHF trading results](visualizations/USDCHF_trading_signal.png)
 ![USDINR trading signal](visualizations/USDINR_trading_signaloutput.png)
 ![USDEUR trading signal](visualizations/USDEUR_trading_signal.png)
 ![USDJPY trading signal](visualizations/USDJPY_trading_signaloutput.png)
